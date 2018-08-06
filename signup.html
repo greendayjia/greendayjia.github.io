@@ -12,7 +12,7 @@ $(function(){
     $("[name='signup']").change(function(){ //change 時 觸發事件
 		$("[name='food']").prop("checked",false) //子選項變為未選狀態
 		$(".food").hide() //子選項先隱藏
-		if( $("[name='signup'][value='1']").prop("checked") ) //選到yep時子選粉墨登場
+		if( $("[name='signup'][value='1']").prop("checked") ) //選到yep時子選項粉墨登場
 			$(".food").show()
 
     });
@@ -26,7 +26,7 @@ $(function(){
 	your dietary preference: 
 		<input type="radio" name="food" value="1">meat&emsp;
 		<input type="radio" name="food" value="2">vegie&emsp;
-		<input type="radio" name="food" value="3">junkegie&emsp;
+		<input type="radio" name="food" value="3">junk&emsp;
 </span>
 
 <br/>
